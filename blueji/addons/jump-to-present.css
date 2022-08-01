@@ -1,0 +1,11 @@
+.jumpToPresentBar-1cEnH0 {
+  visibility: hidden;
+  bottom: 15px;
+}
+.jumpToPresentBar-1cEnH0 .barButtonIcon-bMvzp2 {
+  visibility: visible;
+  padding: 12px;
+  background-color: var(--dracula-accent);
+  border-radius: 50%;
+  margin-bottom: 2em;
+}

@@ -1,0 +1,11 @@
+$replies: rgb(189, 147, 249);
+
+.replying-eZ7p5z {
+  background: rgba($replies, 0.1) !important;
+  &:before {
+    background-color: $replies !important;
+  }
+  &::hover {
+    background: rgba($replies, 0.2) !important;
+  }
+}

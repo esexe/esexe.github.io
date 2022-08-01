@@ -1,0 +1,39 @@
+/*Mac like topbar buttons*/
+.winButton-3UMjdg > svg {
+  display: none;
+}
+.winButton-3UMjdg:hover {
+  background-color: var(--background-secondary);
+}
+.winButton-3UMjdg {
+  pointer-events: none;
+  margin-left: -3px;
+}
+
+.winButton-3UMjdg::after {
+  content: "";
+  padding: 7px;
+  border-radius: 50px;
+  pointer-events: fill;
+}
+.winButtonClose-3Q8ZH5 {
+  margin-right: 3px;
+}
+.winButtonClose-3Q8ZH5::after {
+  background-color: #ff605c;
+}
+.winButtonClose-3Q8ZH5:hover::after {
+  background-color: rgba(255, 96, 92, 0.5);
+}
+.winButtonMinMax-3RsPUg[aria-label="Maximize"]::after {
+  background-color: #ffbd44;
+}
+.winButtonMinMax-3RsPUg[aria-label="Maximize"]:hover::after {
+  background-color: rgba(255, 189, 68, 0.5);
+}
+.winButtonMinMax-3RsPUg[aria-label="Minimize"]::after {
+  background-color: #00ca4e;
+}
+.winButtonMinMax-3RsPUg[aria-label="Minimize"]:hover::after {
+  background-color: rgba(0, 202, 78, 0.5);
+}

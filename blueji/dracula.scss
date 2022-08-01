@@ -1,0 +1,1339 @@
+/* Variables */
+@use "./vars.css";
+
+/* Addons */
+@use "./addons/watermark.css";
+@use "./addons/better-channel-indicators.css";
+@use "./addons/colored-mentions.scss";
+@use "./addons/colored-replies.scss";
+@use "./addons/nicer-roles.css";
+@use "./addons/user-connections.scss";
+@use "./addons/profile-modals.css";
+@use "./addons/better-embeds.css";
+@use "./addons/better-quotes.css";
+@use "./addons/status-indicator.css";
+@use "./addons/dusk-to-dawn-settings.css";
+@use "./addons/jump-to-present.css";
+@use "./addons/settings-icons.css";
+@use "./addons/hljs-styling.scss";
+@use "./addons/discolored.css";
+@use "./addons/context-icons.css";
+// @use "./addons/disappearing-icons";
+// @use "./addons/macos-titlebar.css"
+
+/* Theme */
+/* home page */
+#app-mount .container-2cd8Mz {
+	background-color: var(--dracula-primary);
+}
+/* chat box*/
+.scrollableContainer-15eg7h {
+	border-radius: 25px;
+	border: 1px solid var(--dracula-tertiary);
+	background-color: var(--dracula-secondary);
+}
+/* date divider */
+.content-3spvdd {
+	color: #ffffff;
+}
+/* dont u dare touch usernames */
+.username-h_Y3Us {
+	color: #ffffff;
+}
+/* auto complete */
+#app-mount .autocomplete-3NRXG8 {
+	background-color: var(--dracula-secondary);
+}
+#app-mount .selected-3H3-RC {
+	background-color: var(--dracula-accent-alpha);
+}
+.categoryHeader-OpJ1Ly {
+	background-color: var(--dracula-primary);
+}
+/* search box */
+#app-mount .container-2McqkF {
+	background: var(--dracula-secondary) !important;
+}
+#app-mount .option-2KkUJO:after {
+	display: none;
+}
+#app-mount .option-2KkUJO.selected-rZcOL- {
+	background-color: var(--dracula-accent);
+}
+#app-mount .search-1FM8Qc {
+	border-color: var(--dracula-accent);
+}
+.search-1FM8Qc.focused-8aNhVB,
+.search.open,
+.search.popout-open {
+	border: 2px solid;
+	border-radius: 0px;
+}
+.searchBar-zdmu7v {
+	border-radius: 15px;
+}
+#app-mount .focused-2FU0YH {
+	background-color: var(--dracula-primary);
+}
+.option-2KkUJO[aria-selected="true"] {
+	background-color: var(--dracula-tertiary) !important;
+}
+/* popout modal */
+.headerPlaying-j0WQBV {
+	background-color: var(--dracula-accent);
+}
+#app-mount .body-2wLx-E,
+#app-mount .footer-1N3bR3 {
+	background-color: var(--dracula-secondary);
+}
+#app-mount .headerNormal-T_seeN {
+	background-color: var(--dracula-primary);
+}
+
+/* profile modal */
+.topSection-13QKHs {
+	background-color: var(--dracula-primary);
+}
+.body-1Ukv50 {
+	background-color: var(--dracula-secondary);
+}
+/* bot tags */
+.botTagRegular-kpctgU {
+	background-color: var(--dracula-accent);
+}
+.botTagInvert-1nKcq_ {
+	color: var(--dracula-accent);
+}
+
+/* taken ₍ₛₜₒₗₑₙ₎ from KraXen72's rosebox */
+.chat-2ZfjoI,
+.container-2cd8Mz,
+.libraryHeader-2loraV,
+.container-ZMc96U,
+.homeWrapper-L4ors0 .title-31SJ6t,
+.applicationStore-2nk7Lo,
+.scroller-3j5xK2,
+.pageHeaderDrag-3HG1-5 {
+	border-top-left-radius: 10px !important;
+}
+/* server pill */
+.item-2LIpTv {
+	background-color: var(--dracula-accent);
+}
+
+/* new messages */
+.newMessagesBar-1hF-9G {
+	background-color: var(--dracula-accent);
+	border: 1px var(--dracula-accent-dark);
+	border-style: none solid solid solid;
+}
+
+/* server header */
+.header-3OsQeK {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+/* server and channel name */
+.name-3Uvkvr,
+.base-21yXnu:not(.nameNormal-2fPMD2) {
+	color: var(--dracula-accent);
+}
+/* oopsie */
+.nameWrap-3TyM52.textRow-1sENuL.base-21yXnu.size14-3fJ-ot,
+.gameIcon-1mDo1J {
+	color: #ffffff;
+}
+/* delete message */
+#app-mount .message-G6O-Wv {
+	background-color: var(--dracula-secondary);
+	box-shadow: none;
+	border: 1px solid var(--dracula-tertiary);
+}
+/* update button */
+.updateIconForeground-2V_zo4 {
+	fill: var(--dracula-accent);
+}
+/* discord icon */
+.childWrapper-1j_1ub {
+	color: var(--dracula-accent);
+}
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
+	background: var(--dracula-accent);
+}
+
+/* memberslist*/
+.members-3WRCEx,
+.members-3WRCEx > div,
+#dv-mount {
+	background-color: var(--dracula-primary);
+}
+
+/* role picker */
+.container-2O1UgZ {
+	background-color: var(--dracula-secondary);
+	border: 1px solid var(--dracula-tertiary);
+}
+
+/* media */
+.mediaBarGrabber-FvJKJg,
+.mediaBarProgress-38I317,
+.mediaBarProgress-38I317:after,
+.mediaBarProgress-38I317:before,
+.mediaBarInteraction-tUE5dq:hover .mediaBarGrabber-FvJKJg {
+	background-color: var(--dracula-accent);
+}
+.audioControls-3fmemK {
+	background-color: transparent;
+}
+.videoControls-2NzHnF {
+	background-color: var(--dracula-tertiary-alpha);
+}
+.mediaBarInteractionVolume-zGrOSh {
+	background-color: var(--dracula-secondary-alpha);
+}
+.wrapper-x4po40 {
+	background-color: var(--dracula-secondary-alpha);
+}
+.iconPlay-3weMmb.icon-23NjRH
+	polygon[fill="currentColor"][points="0 0 0 14 11 7"] {
+	fill: var(--dracula-accent) !important;
+}
+.metadata-3IncIG {
+	background: linear-gradient(0, transparent, var(--dracula-secondary));
+}
+.mediaBarInteractionDragging-3XLL8k .mediaBarGrabber-FvJKJg {
+	background-color: var(--dracula-accent);
+}
+/* drag n drop */
+.uploadModalIn-2w48Zf .uploadDropModal-13Kd20 .bgScale-1iWuPF {
+	background-color: var(--dracula-secondary);
+}
+.uploadModalIn-2w48Zf .uploadDropModal-13Kd20 .inner-rBP-MS {
+	color: var(--dracula-accent);
+	border: 2px dashed var(--dracula-accent);
+}
+/* upload modal */
+#app-mount .uploadModal-2ie9O_ {
+	background-color: var(--dracula-primary);
+}
+#app-mount .footer-VCsJQY {
+	background-color: var(--dracula-secondary);
+}
+.checked-1pZh2h[style="width: 24px; height: 24px; border-color: rgb(114, 137, 218);"] {
+	border-color: var(--dracula-accent) !important;
+}
+path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.5899 5.59003L8.99991 16.17Z"][fill="#7289da"] {
+	fill: var(--dracula-accent);
+}
+/* taken from rosebox by KraXen72 */
+.uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.image-2ssF8k {
+	border: 2px solid var(--dracula-accent);
+}
+.uploadModal-2ie9O_ .inner-rBP-MS,
+.uploadModalIn-2w48Zf .uploadDropModal-13Kd20 .inner-rBP-MS {
+	border: 2px dashed var(--dracula-accent);
+	border-radius: 10px;
+}
+/* settings */
+.button-12Fmur {
+	border-radius: 20px;
+}
+#app-mount .root-g14mjS {
+	background-color: var(--dracula-primary);
+}
+#app-mount .footer-31IekZ {
+	background-color: var(--dracula-secondary);
+}
+#app-mount .htqj5xw-f1e1abj {
+	color: var(--dracula-accent);
+	border-color: var(--dracula-accent);
+}
+#app-mount .codeRedemptionRedirect-3SBiCp {
+	background-color: var(--dracula-secondary);
+	border-color: var(--dracula-tertiary);
+}
+
+/* join a server modal - because discord are literary braindead */
+.lookFilled-yCfaCM.colorGrey-2iAG-B,
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+	background-color: var(--dracula-accent);
+	&:hover,
+	&:disabled {
+		background-color: var(--dracula-accent-light);
+	}
+}
+.backButton-2Ps-B8.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.sizeMin-1mJd1x.grow-q77ONN {
+	color: #b9bbbe;
+}
+.colorStandard-21JIj7.size16-rrJ6ag.text-PdAsFQ {
+	color: #ffffff;
+}
+.colorStandard-21JIj7.size20-9iTTnl.footerTitle-3Bslxi {
+	color: #ffffff;
+}
+.colorHeaderPrimary-jN_yGr.size24-17l95E.title-1_TkpU,
+.colorHeaderPrimary-jN_yGr.size24-17l95E.title-OdeD-o,
+.colorHeaderPrimary-jN_yGr.size24-17l95E.title-1LqMUp {
+	color: var(--dracula-accent);
+}
+.inviteDestinationExpired-1n9a5a {
+	color: #f04747;
+}
+.container-x8Y1ix {
+	background-color: var(--dracula-secondary);
+}
+.colorHeaderSecondary-g5teka,
+.sampleLink-5BWNy9,
+.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
+	color: var(--header-secondary);
+}
+.theme-light .footer-31IekZ,
+.theme-light .root-g14mjS {
+	box-shadow: none;
+}
+.input-2g-os5 {
+	color: var(--header-secondary);
+}
+circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
+	fill: var(--dracula-accent);
+}
+.input-m1-Y7Q {
+	background-color: var(--dracula-secondary);
+	border: 1px solid var(--dracula-tertiary);
+}
+/* discover servers */
+#app-mount .pageWrapper-2PwDoS {
+	background-color: var(--dracula-primary);
+}
+.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
+	background-color: var(--dracula-accent);
+}
+.search-25t1e9 .searchBox-31Zv9h {
+	background-color: var(--dracula-secondary);
+}
+
+/* a lot of blurple annihlated - aka my old snippets that have no comments ;w; */
+.option-1QI4c9:hover,
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub,
+.barFill-2Bh7CX,
+.colorDefault-CDqZdO.focused-3qFvc8,
+.headerPlaying-j0WQBV,
+.topSectionPlaying-1J5E4n,
+.lookFilled-yCfaCM.colorGreen-29iAKY,
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+#app-mount .wrapper-1ZcZW-:hover,
+.circleIconButton-1VxDrg.selected-2r1Hvo,
+.newMessagesBar-1hF-9G,
+.questionMark-3V9mGJ,
+.bd-button,
+.bd-addon-views .bd-view-button.selected {
+	background-color: var(--dracula-accent);
+}
+.bd-switch input:checked + .bd-switch-body {
+	--switch-color: var(--dracula-accent);
+}
+.button-TGAkj4[style*="114, 137, 218"],
+.button-f2h6uQ[style*="114, 137, 218"],
+.button-38aScr[style*="114, 137, 218"],
+.container-2nx-BQ:not([style*="background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%)"]),
+.activeButton-LRWFC_ {
+	background-color: var(--dracula-accent) !important;
+}
+.container-2nx-BQ:not([style*="rgb(114, 118, 125)"]) .slider-32CRPX svg path,
+.radioSelection-1UHp0b {
+	fill: var(--dracula-accent);
+}
+.radioIconForeground-2BMavi {
+	fill: var(--dracula-accent) !important;
+}
+.item-2idW98[aria-checked="true"] svg,
+.defaultValue-19SZ-q .markValue-2U_-UG,
+.colorBrand-3cPPsm,
+.lookOutlined-3sRXeN.colorBrand-3pXr91,
+.reaction-2A2y9y.reactionMe-3I9gFK .reactionCount-1zkLcN,
+#app-mount .wrapper-1ZcZW-,
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+	color: var(--dracula-accent);
+}
+.lookOutlined-3sRXeN.colorBrand-3pXr91,
+.input-2g-os5:focus,
+.input-2g-os5.focused-1AtTHC {
+	border-color: var(--dracula-accent);
+}
+.wrapper-SdcMKg {
+	border: 2px solid var(--dracula-accent);
+}
+.lookFilled-yCfaCM.colorBrand-3pXr91:hover,
+.lookFilled-yCfaCM.colorGreen-29iAKY:hover,
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover,
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover,
+.bd-button:hover,
+.bd-button:focus {
+	background-color: var(--dracula-accent-light);
+}
+.circleIconButton-1VxDrg {
+	color: var(--dracula-accent);
+	&:hover {
+		color: #ffffff;
+	}
+}
+
+.lookFilled-yCfaCM.colorGreen-29iAKY:disabled,
+.lookFilled-yCfaCM.colorBrand-3pXr91:disabled,
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+	background-color: var(--dracula-accent-dark);
+}
+.radioSelection-1UHp0b:hover {
+	fill: #ffffff !important;
+}
+.reaction-2A2y9y.reactionMe-3I9gFK {
+	background-color: var(--dracula-accent-alpha);
+}
+
+/* thanks to snapperito */
+
+/* sliders */
+#app-mount .bar-1Bhnl9 {
+	background-color: var(--dracula-primary-light);
+}
+/* gift buttons on sub tab */
+#app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo,
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+	background-color: var(--dracula-accent);
+	&:hover {
+		background-color: var(--dracula-accent-light);
+	}
+}
+/* voice devices*/
+.css-1ba14n5-option {
+	background-color: var(--dracula-secondary);
+}
+.css-3vaxre-menu {
+	background-color: var(--dracula-primary);
+}
+/* video */
+#app-mount .userSettingsVoice-1_dzjw .previewOverlay-2reuWf {
+	background-color: var(--dracula-secondary);
+	border-color: var(--dracula-tertiary);
+}
+/* mic test */
+#app-mount .progress-1S-TDF {
+	background-color: var(--dracula-secondary);
+}
+.container-3NTP7o {
+	background: var(--dracula-accent) !important;
+}
+
+/* selected in tab settings */
+.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+	background-color: var(--dracula-accent);
+	border-radius: 2px;
+	&:hover {
+		background-color: var(--dracula-accent-light);
+	}
+}
+.topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+	background-color: var(--dracula-accent-alpha);
+	border-radius: 2px;
+}
+.item-3mHhwr.item-3XjbnG[aria-controls="ADD_FRIEND-tab"] {
+	background-color: var(--dracula-accent) !important;
+	color: #ffffff !important;
+}
+/* plugins modals */
+.cardPrimary-3qRT__ {
+	background: var(--dracula-secondary);
+}
+/* context menu slection fix */
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+	background-color: var(--dracula-accent-light);
+}
+/* reactions not reacted to */
+.reaction-2A2y9y {
+	background: var(--dracula-secondary);
+}
+/* overlays not selected */
+.option-1QI4c9 {
+	background-color: var(--dracula-primary-light);
+}
+.disabled-35mc5w {
+	color: var(--dracula-primary-light);
+}
+/* tooltips */
+#app-mount .tooltip-14MtrL,
+#app-mount .tooltip-1_vJJI,
+#app-mount .subscribeTooltipWrapper-3ipXtC {
+	background-color: var(--dracula-secondary);
+}
+/* status picker */
+.menu-1QACrS {
+	border: 1px solid var(--dracula-tertiary);
+}
+/* in a call badge */
+.iconBadge-2wi9r4.participating-NBGDkr {
+	background-color: var(--dracula-accent);
+}
+/* call box */
+/* call buttons */
+.colorable-3rVGna.primaryDark-2UJt1G {
+	background-color: var(--dracula-primary);
+}
+/* popout selection ring */
+.item-1OdjEX[aria-checked="true"] svg {
+	color: var(--dracula-accent);
+}
+/* speaking ring */
+.avatarSpeaking-2pCGrZ,
+.border-2BJQjd.speaking-3RWJBr {
+	box-shadow: inset 0 0 0 2px var(--dracula-accent),
+		inset 0 0 0 3px var(--dracula-secondary);
+}
+/* how'd the call go dont show again :^)*/
+.checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked + span {
+	background-color: var(--dracula-accent);
+	border-color: var(--dracula-accent);
+}
+/* escape button */
+#app-mount .closeButton-PCZcma {
+	border-color: var(--dracula-accent);
+}
+#app-mount .keybind-13vtq8 {
+	color: var(--dracula-accent);
+}
+/*path[d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"] {
+  fill: var(--dracula-accent);
+}*/
+/* game activity */
+#app-mount .game-3x3aDt {
+	box-shadow: 0 1px 0 0 var(--dracula-tertiary);
+}
+#app-mount .nowPlaying-zBamm2 {
+	background-color: var(--dracula-accent);
+}
+#app-mount .card-2ART2V:before {
+	background-color: var(--dracula-secondary);
+	border-color: var(--dracula-tertiary);
+}
+/* disabled switches */
+.container-2nx-BQ[style="opacity: 1; background-color: rgb(114, 118, 125);"] {
+	background-color: var(--dracula-primary-light) !important;
+}
+/* powercord alias plugin modal */
+.powercord-alias-pair {
+	background: var(--dracula-secondary) !important;
+	border: 1px solid var(--dracula-tertiary) !important;
+}
+.powercord-alias-textarea:focus {
+	border-color: var(--dracula-accent) !important;
+}
+/* discord tweaks pc plugin */
+.searchBox {
+	background: var(--dracula-secondary) !important;
+}
+.discordTweaksSettings .tweaks .tweakCard {
+	background-color: var(--dracula-secondary) !important;
+	border: 1px solid var(--dracula-tertiary);
+}
+/* scroll bar fix - for future refrence ::-webkit-scrollbar doesn't play nice with Horizontal Server List */
+.scrollerBase-_bVAAt.disableScrollAnchor-6TwzvM::-webkit-scrollbar-thumb,
+.auto-2K3UW5.scrollerBase-_bVAAt::-webkit-scrollbar-thumb,
+.thin-31rlnD.scrollerBase-_bVAAt::-webkit-scrollbar-thumb {
+	background-color: var(--dracula-primary-light);
+}
+
+.base-2jDfDU div::-webkit-scrollbar-thumb,
+#user-settings div::-webkit-scrollbar-thumb {
+	background-color: var(--dracula-primary-light) !important;
+}
+.base-2jDfDU div::-webkit-scrollbar-thumb:hover {
+	background-color: var(--dracula-primary-light) !important;
+}
+
+/* quick switch */
+.input-3r5zZY {
+	background-color: var(--dracula-secondary);
+	border: 1px solid var(--dracula-tertiary);
+}
+/* screenshare */
+.selectorButtonSelected-3Z0WNU {
+	background-color: var(--dracula-accent);
+}
+.selectorButton-3sW6Qm:not(.selectorButtonPremiumRequired-2pGGEj):hover {
+	background-color: var(--dracula-accent);
+}
+.item-2OyinQ {
+	border: none;
+}
+/* video and screenshare buttons alternate style - i'll just leave it here commented */
+/*.button-1EGGcP.buttonColor-3bP3fX,
+.button-1EGGcP .buttonColor-3bP3fX {
+  background-color: transparent;
+  border: 1px solid var(--dracula-accent);
+  border-radius: 0;
+}
+.button-1EGGcP.buttonColor-3bP3fX,
+.button-1EGGcP .buttonColor-3bP3fX {
+  color: var(--dracula-accent);
+}*/
+
+/* server region */
+.lookGhost-2Fn_0-.colorBrand-3pXr91 {
+	color: var(--dracula-accent);
+	background-color: var(--dracula-accent-alpha);
+}
+.regionSelectModal-12e-57 {
+	background: var(--dracula-primary) !important;
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+	background-color: var(--dracula-secondary);
+	border: 1px solid var(--dracula-tertiary);
+}
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
+	color: var(--dracula-accent);
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
+	border-color: var(--dracula-accent);
+}
+/* save changes confirmation */
+.container-20TyK0.elevationHigh-28Pty4[style="background-color: rgba(32, 34, 37, 0.9);"] {
+	background-color: var(--dracula-secondary-alpha) !important;
+}
+/* server boost status */
+#app-mount .tierHeaderLocked-1a2opw {
+	background-color: var(--dracula-secondary);
+}
+#app-mount .tierBody-x9kBBp {
+	background-color: var(--dracula-primary);
+}
+.tier-3H4BXk {
+	border: 1px solid var(--dracula-tertiary);
+}
+/* region selector call */
+#app-mount .quickSelectPopout-2F0PXw {
+	background: var(--dracula-secondary);
+}
+.check-K_srvn {
+	fill: var(--dracula-accent) !important;
+}
+/* date picker */
+#app-mount .calendarPicker-sDhzdi .react-datepicker {
+	background-color: var(--dracula-secondary);
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__header {
+	background-color: var(--dracula-secondary);
+	border-color: var(--dracula-tertiary);
+}
+#app-mount
+	.calendarPicker-sDhzdi
+	.react-datepicker__day.react-datepicker__day--disabled,
+#app-mount
+	.calendarPicker-sDhzdi
+	.react-datepicker__day.react-datepicker__day--disabled:hover {
+	background-color: var(--dracula-primary-light);
+	&:hover {
+		background-color: var(--dracula-primary-light);
+	}
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day--disabled,
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day--outside-month {
+	background-color: var(--dracula-primary);
+}
+#app-mount
+	.calendarPicker-sDhzdi
+	.react-datepicker__day.react-datepicker__day--selected:after {
+	background-color: var(--dracula-accent);
+}
+#app-mount
+	.calendarPicker-sDhzdi
+	.react-datepicker__day.react-datepicker__day--selected:hover,
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day:hover {
+	background-color: var(--dracula-accent-alpha-alt2);
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day {
+	border-top-color: var(--dracula-tertiary);
+	border-left-color: var(--dracula-tertiary);
+}
+#app-mount .datePicker-70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY {
+	background-color: transparent;
+}
+#app-mount .datePicker-70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY:hover {
+	background-color: var(--dracula-accent-alpha-alt2);
+}
+/* discover page search */
+.categoryPill-1zjNrr.selected-bLcqYK {
+	background-color: var(--dracula-accent);
+}
+.searchPage-3tt6dh .search-25t1e9 .searchBox-31Zv9h:focus,
+.searchPage-3tt6dh .search-25t1e9 .searchBox-31Zv9h:focus-within {
+	border-color: var(--dracula-accent) !important;
+}
+.css-12hk9yc-control {
+	background-color: var(--dracula-secondary);
+}
+.css-ix84ef-menu {
+	background-color: var(--dracula-secondary);
+}
+.css-1adxh11-control {
+	background-color: var(--dracula-secondary);
+}
+/* store page */
+.scroller-1JpcIc {
+	background-color: var(--dracula-primary);
+}
+#app-mount .bodySection-3iDdop,
+#app-mount .row-2qQ--F {
+	background-color: var(--dracula-secondary);
+}
+.checkmarkIcon-2YUUhA {
+	color: var(--dracula-accent);
+}
+/* nitro gifts, idk about valid ones gift me nitro so i can find out :^) */
+#app-mount .description-X8_53U {
+	color: var(--dracula-accent);
+}
+#app-mount .tile-2mmK5T {
+	background-color: var(--dracula-secondary);
+	&:hover {
+		background-color: var(--dracula-tertiary);
+	}
+}
+#app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo:disabled,
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled {
+	background-color: var(--dracula-primary-light);
+}
+#app-mount .invalidPoop--w1123 {
+	background-color: var(--dracula-secondary);
+}
+/* boost screen */
+#app-mount .perksModal-fSYqOq {
+	background-color: var(--dracula-primary);
+}
+#app-mount .perk-2WeBWW {
+	background-color: var(--dracula-secondary);
+}
+#app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo:active,
+#app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover,
+.lookFilled-yCfaCM.colorBrand-2AuQVo:active,
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:active,
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
+.lookFilled-1Gx00P.colorBrand-3pXr91:active {
+	background-color: var(--dracula-accent-light);
+}
+#app-mount .barBackground-unEPDT,
+#app-mount .tierMarkerBackground-G8FoN4 {
+	background-color: var(--dracula-primary-light);
+}
+/* search channels */
+#app-mount .searchAnswer-23w-CH,
+#app-mount .searchFilter-2UfsDk {
+	background-color: var(--dracula-primary-light);
+}
+/* announcements channels */
+#app-mount .header-13P3fr {
+	background: var(--dracula-secondary);
+}
+/* discovery clear button*/
+.searchPage-3tt6dh .search-25t1e9 .searchBox-31Zv9h .closeIcon-BMGxx0 {
+	color: var(--dracula-primary-light);
+}
+/* homepage now playing section */
+#app-mount .inset-SbsSFp {
+	background-color: var(--dracula-primary);
+}
+#app-mount .outer-2JOHae.active-1W_Gl9,
+#app-mount .outer-2JOHae.interactive-2zD88a:hover {
+	background-color: var(--dracula-tertiary);
+}
+#app-mount .popout-3Zw0qN {
+	background-color: var(--dracula-secondary);
+}
+#app-mount .separator-2OaeRP {
+	background-color: var(--dracula-tertiary);
+}
+#app-mount .enabled-1t_Gxm:hover {
+	background-color: var(--dracula-tertiary);
+}
+/* reply mention */
+.colorBrand-21Le_q {
+	color: var(--dracula-accent);
+}
+/* bdCompat modals */
+#app-mount .modal-2RrUKJ {
+	background-color: var(--dracula-primary);
+}
+/* jump to present "fix" - straight up stolen from tropical in powercord's themes channel teehee :DDD */
+.jumpToPresentBar-1cEnH0 {
+	padding: 0;
+	bottom: 8px;
+	border-radius: 15px;
+}
+/* emoji names input */
+#app-mount .emojiAliasInput-3ZhdKx .emojiInput-B8MGXq,
+#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+	background-color: var(--dracula-secondary);
+}
+#app-mount .input-2g-os5:focus,
+#app-mount .input-2g-os5.focused-1AtTHC,
+#app-mount .input-2g-os5:hover {
+	border-color: var(--dracula-accent);
+}
+/* fix speaking ring in maximized vc */
+.border-2Vy6FN.speaking-7QZEkv {
+	box-shadow: inset 0 0 0 2px var(--dracula-accent),
+		inset 0 0 0 3px var(--dracula-secondary);
+}
+/* additional maximized vc customizations */
+.wrapper-1gVUIN.fullScreen-KhZZcz,
+.wrapper-1gVUIN.noChat-2UYgeE {
+	background-color: var(--dracula-primary);
+}
+.tile-2TcwiO {
+	background-color: var(--dracula-secondary) !important;
+	border: 1px solid var(--dracula-tertiary);
+}
+.gradientContainer-phMG8d {
+	background-image: linear-gradient(
+		var(--dracula-secondary),
+		rgba(36, 38, 49, 0.738) 19%,
+		rgba(36, 38, 49, 0.541) 34%,
+		rgba(36, 38, 49, 0.382) 47%,
+		rgba(36, 38, 49, 0.278) 56.5%,
+		rgba(36, 38, 49, 0.194) 65%,
+		rgba(36, 38, 49, 0.126) 73%,
+		rgba(36, 38, 49, 0.075) 80.2%,
+		rgba(36, 38, 49, 0.042) 86.1%,
+		rgba(36, 38, 49, 0.021) 91%,
+		rgba(36, 38, 49, 0.008) 95.2%,
+		rgba(36, 38, 49, 0.002) 98.2%,
+		transparent
+	);
+}
+.colorable-3rVGna.primaryDark-2UJt1G {
+	background-color: var(--dracula-secondary);
+	&:hover {
+		background-color: var(--dracula-tertiary);
+	}
+}
+.colorable-3rVGna.white-11auuQ {
+	background-color: var(--dracula-accent);
+	color: #ffffff;
+	.centerIcon-2G6o-T {
+		color: #ffffff;
+	}
+	&.active-1QRrIS {
+		background-color: var(--dracula-accent);
+	}
+	&:hover {
+		background-color: var(--dracula-accent-light);
+	}
+}
+.colorable-3rVGna.white-11auuQ,
+.colorable-3rVGna.white-11auuQ .centerIcon-JYpTUi {
+	color: #ffffff;
+}
+.colorable-3rVGna.white-11auuQ.active-3D763s {
+	background-color: var(--dracula-accent);
+}
+.colorable-3rVGna.white-11auuQ:hover {
+	background-color: var(--dracula-accent-light);
+}
+.colorable-3rVGna.white-11auuQ,
+.colorable-3rVGna.white-11auuQ .centerIcon-JYpTUi {
+	color: #ffffff;
+}
+.colorDefault-CDqZdO .checkbox-hADx5o,
+.colorDefault-CDqZdO .radioSelection-1UHp0b {
+	color: var(--dracula-accent);
+}
+#app-mount .wanderingCubesItem-3Us-UG {
+	background-color: var(--dracula-accent);
+}
+.videoWrapper-3rtb_V {
+	background-color: var(--dracula-secondary);
+}
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+	background-color: var(--dracula-accent-light);
+}
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+	background-color: var(--dracula-accent-light);
+}
+/* invite button */
+.button-3Vyz67 {
+	background-color: var(--dracula-accent);
+	&:hover {
+		background-color: var(--dracula-accent-light);
+	}
+}
+.lookOutlined-3sRXeN.colorGreen-29iAKY {
+	color: var(--dracula-accent);
+	border-color: var(--dracula-accent);
+	&:active {
+		background-color: var(--dracula-accent-light);
+	}
+}
+.lookFilled-yCfaCM.colorGreen-29iAKY,
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+	background-color: var(--dracula-accent);
+}
+.lookOutlined-3sRXeN.colorGreen-29iAKY:active {
+	background-color: var(--dracula-accent-light);
+	color: #ffffff;
+}
+/* self muted and deafened */
+.icon-N9JZb6:not(.iconServer-GeSR0b) {
+	color: var(--dracula-accent);
+}
+
+/* notification settings */
+.checkbox-f1HnKB[style="width: 24px; height: 24px; border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+	background-color: var(--dracula-accent) !important;
+	border-color: var(--dracula-accent-dark) !important;
+}
+.checkbox-f1HnKB[style="width: 24px; height: 24px; border-color: rgb(67, 181, 129); background-color: rgb(67, 181, 129);"] {
+	background-color: var(--dracula-accent) !important;
+	border-color: var(--dracula-accent) !important;
+}
+.checkbox-f1HnKB[style="width: 24px; height: 24px; border-color: rgba(67, 181, 129, 0.15); background-color: rgba(67, 181, 129, 0.15);"] {
+	background-color: var(--dracula-accent-alpha) !important;
+	border-color: var(--dracula-accent-alpha) !important;
+}
+path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.5899 5.59003L8.99991 16.17Z"][fill="#43b581"] {
+	fill: var(--dracula-accent);
+}
+#app-mount .default-1Tkeeg {
+	background-color: var(--dracula-secondary);
+	&:hover {
+		background-color: var(--dracula-tertiary);
+	}
+}
+#app-mount .override-1sK4r0:hover {
+	background-color: var(--dracula-tertiary);
+}
+/* tiny chat box fix */
+.channelTextArea-1VQBuV {
+	border-radius: 25px;
+}
+#app-mount .form-3gdLxP:before {
+	display: none;
+}
+/* billing stuff */
+.css-dwar6a-menu {
+	background-color: var(--dracula-secondary);
+}
+.css-rzbxvl-option {
+	background-color: var(--dracula-tertiary);
+}
+#app-mount .defaultIndicator-2ndWks {
+	background-color: var(--dracula-accent);
+}
+/* keyboard combos modal */
+#app-mount .keyboardShortcutsModal-2CRmCm {
+	background-color: var(--dracula-secondary);
+}
+/* role color picker */
+#app-mount .colorPickerCustom-1swUKF {
+	background: var(--dracula-primary);
+	border-color: var(--dracula-tertiary);
+}
+/* game activity */
+#app-mount .notDetected-2HEmAp {
+	background-color: var(--dracula-primary-light);
+}
+#app-mount .addGamePopout-3yePJc {
+	background-color: var(--dracula-primary);
+}
+.css-6fzn47-control:hover {
+	border-color: var(--dracula-accent);
+}
+/* reactions list */
+#app-mount .container-KM8BU6,
+#app-mount .reactors-1VXca7 {
+	background-color: var(--dracula-primary);
+}
+#app-mount .scroller-2GkvCq {
+	background-color: var(--dracula-secondary);
+}
+#app-mount .reactionSelected-1aMb2K {
+	background-color: var(--dracula-accent);
+}
+/* bbd stuff */
+#app-mount .bd-addon-list .bd-addon-card {
+	background-color: var(--dracula-secondary);
+	border-color: var(--dracula-tertiary);
+}
+#app-mount .bd-addon-list .bd-card-footer {
+	border-top-color: var(--dracula-tertiary);
+}
+#app-mount .bd-addon-list .bda-header {
+	border-bottom-color: var(--dracula-tertiary);
+}
+.bd-search-wrapper {
+	background-color: var(--dracula-secondary);
+}
+.bd-select .bd-select-options {
+	background: var(--dracula-secondary);
+}
+.bd-select .bd-select-option:hover,
+.bd-select .bd-select-option.selected {
+	background: var(--dracula-tertiary);
+}
+#bd-settingspane-container .ui-switch-item .style-description {
+	border-bottom: none;
+}
+/* channel perms */
+#app-mount .container-1S70rv .sectionTag-28mLyE {
+	background-color: var(--dracula-primary);
+}
+#app-mount .autocompleteArrow-jJE9TQ,
+#app-mount .header-3i_Csh {
+	background-color: var(--dracula-secondary);
+}
+/* spotify listening party */
+#app-mount .invite-3uuHYQ {
+	background-color: var(--dracula-secondary);
+	border-color: var(--dracula-tertiary);
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+	background-color: var(--dracula-primary-light);
+}
+.attachButtonPlay-1ATmb5 {
+	color: var(--dracula-accent);
+}
+.lookLink-9FtZy-.colorBrand-3pXr91 {
+	color: var(--dracula-accent);
+}
+.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-3ca1mk,
+.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
+	/* discord is fucking weird dont ask me */
+	background-image: linear-gradient(
+		0deg,
+		transparent,
+		transparent 1px,
+		var(--dracula-accent) 0,
+		var(--dracula-accent) 2px,
+		transparent 0
+	);
+}
+/* meh */
+.ephemeralMessage-11q8XZ a {
+	color: var(--dracula-accent);
+}
+.operations-3q3u6E > a {
+	color: var(--dracula-accent);
+}
+/* rtc connection */
+#app-mount .container-1ILvLB {
+	.header-2C89wJ,
+	section {
+		background-color: var(--dracula-secondary);
+	}
+}
+/* bd plugin, no idea if this is anywhere else in discord but hey ¯\_(ツ)_/¯ */
+#app-mount .popoutList-10IFAa {
+	background: var(--dracula-primary);
+}
+.container-2oNtJn {
+	background-color: var(--dracula-secondary);
+}
+/* invite "join x" */
+#app-mount .contentWrapper-3oy4Xo {
+	background: var(--dracula-primary);
+}
+/* fix replying */
+.attachedBars-2BCP3l {
+	margin: 0 20px 0 20px;
+}
+/* powercord codeblock copy */
+.powercord-codeblock-copy-btn.copied {
+	background-color: var(--dracula-accent) !important;
+}
+/* bd outdated plugins */
+.colorInfo-1kEg3T {
+	background-color: var(--dracula-accent);
+}
+/* discord's annoying reminder to turn on telementry */
+.outer-2JOHae:not(.wrapper-2RrXDg) {
+	background-color: var(--dracula-primary);
+	// display: none; // if you want :)
+}
+/* moving user in vc */
+.containerUserOver-SDa1HW:after {
+	background-color: var(--dracula-accent-alpha);
+	border: 2px solid var(--dracula-accent-alpha-alt2);
+}
+/* search loading */
+#app-mount {
+	.path2-F-M5gP,
+	.path-lhsLSV {
+		stroke: var(--dracula-accent);
+	}
+	.path3-3tVOpU {
+		stroke: var(--dracula-accent-dark);
+	}
+}
+/* favorite gifs fade thingy */
+#app-mount {
+	.categoryFadeBlurple-1HuV1x {
+		/* im not making another fucking variable just for alphas so fuck it */
+		background-color: rgba(189, 147, 249, 0.8);
+		&:hover {
+			background-color: rgba(189, 147, 249, 0.95);
+		}
+	}
+	.result-3OpoO7:hover:after {
+		-webkit-box-shadow: inset 0 0 0 2px var(--dracula-accent),
+			inset 0 0 0 3px var(--dracula-secondary);
+		box-shadow: inset 0 0 0 2px var(--dracula-accent),
+			inset 0 0 0 3px var(--dracula-secondary);
+	}
+}
+/* logging in */
+#app-mount .authBox-1HR6Ha {
+	background: var(--dracula-primary);
+}
+
+.avatarUploaderInner-yEhTv5 {
+	background-color: var(--dracula-accent);
+}
+
+/* light theme warning by snapperito */
+html.theme-light {
+	#app-mount {
+		&::after {
+			content: "You need to have dark theme enabled for dracula to work properly. To enable it, go into Settings -> Appearance";
+			background: var(--dracula-tertiary); /* Container color */
+			position: fixed;
+			z-index: 5;
+			right: 0;
+			bottom: 0;
+			display: flex;
+			align-items: center;
+			max-width: 250px;
+			line-height: normal;
+			padding: 15px 0 15px 60px;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			border-left: 3px solid #f04747;
+			border-radius: 3px;
+			color: rgba(255, 255, 255, 0.65); /* Text Color */
+			background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==);
+			background-repeat: no-repeat;
+			background-size: 35px;
+			background-position: 10px center;
+		}
+	}
+}
+
+/* backslash commands bots thingy idfk */
+.active-WHsd77 {
+	background-color: var(--dracula-accent) !important;
+}
+/* uploading progress bar */
+.progressBar-1T6LYX {
+	background-color: var(--dracula-accent) !important;
+}
+
+// /* left icons */
+// .icon-E4cW1l,
+// .iconContainer-1-SsTR {
+//   order: -1;
+//   padding-right: 10px;
+//   margin-left: 0px;
+// }
+
+/* Better RTC Connection popout */
+.layerContainer-2v_Sit
+	.layer-2aCOJ3[style*="position: absolute; left: 100px;"] {
+	left: 72px !important;
+}
+.container-1ILvLB {
+	width: 240px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
+}
+.layerContainer-2v_Sit
+	.layer-2aCOJ3[style*="position: absolute; left: 100px;"]
+	.container-1ILvLB
+	header {
+	background-color: var(--toast-header);
+}
+.layerContainer-2v_Sit
+	.layer-2aCOJ3[style*="position: absolute; left: 100px;"]
+	.container-1ILvLB
+	section {
+	background-color: var(--deprecated-panel-background);
+}
+.container-1ILvLB section p:nth-of-type(1) {
+	font-size: 0;
+}
+.container-1ILvLB section p:nth-of-type(2) {
+	display: none;
+}
+.container-1ILvLB section strong {
+	font-size: 14px;
+	white-space: pre;
+}
+.container-1ILvLB section strong::before {
+	font-weight: normal;
+}
+.container-1ILvLB section strong:nth-of-type(1)::before {
+	content: "Server: ";
+}
+.container-1ILvLB section strong:nth-of-type(2)::before {
+	content: "Average Ping: ";
+}
+.container-1ILvLB section strong:nth-of-type(3)::before {
+	content: "Last Ping: ";
+}
+.container-1ILvLB section strong:nth-of-type(4)::before {
+	content: "Packet Loss: ";
+}
+
+/* voice badge */
+.iconBadge-3qSJIw {
+	background-color: #43b581;
+	&.participating-1NvRVd {
+		background-color: var(--dracula-accent);
+	}
+}
+
+/* mic test - stolen from CreArts v2.0 by CorellanStoma#1996 */
+.container-3NTP7o {
+	border-radius: 25px;
+}
+.userSettingsVoice-1_dzjw,
+.container-3NTP7o {
+	width: auto !important;
+}
+.theme-dark .notches-2w7UZJ.gray-3wP137 {
+	display: none;
+}
+
+.theme-dark .progress-1S-TDF,
+.theme-light .progress-1S-TDF {
+	background: var(--dracula-primary);
+}
+
+.micTestCaption-3wFDcZ {
+	top: 32px;
+	left: 148px;
+}
+
+// Button
+.micTestButton-1Qz8Oq {
+	width: 140px;
+}
+
+/* reorder theme toggler and bdCompat settings for powercord */
+#app-mount .item-3XjbnG[data-item-id="bdCompat"],
+#app-mount .item-3XjbnG[data-item-id="theme-toggler"] {
+	order: 1;
+}
+.item-3XjbnG[data-item-id="pc-moduleManager-plugins"] ~ div {
+	order: 2;
+}
+
+/* smaller channel icons */
+.icon-2W8DHg {
+	width: 15px;
+}
+
+/* dusk to dawn's cute mentions */
+#app-mount .wrapper-1ZcZW- {
+	border-radius: 5px;
+	padding-top: 2px;
+	padding-right: 3px;
+	padding-bottom: 2px;
+	font-size: 0.9em;
+}
+.channelIcon-3I2O7O {
+	width: 1em;
+	height: 1em;
+	top: 0.4em;
+}
+.mention.iconMentionText-1_WCtN {
+	padding-left: 1rem;
+}
+
+/* BIV lens */
+.BIV-zoom-lens {
+	border: solid var(--dracula-accent) !important;
+}
+.BIV-zoom-lens-round {
+	border: 2px solid var(--dracula-accent) !important;
+}
+/* server settings roles */
+.top-K_jibn .brand-3g5E0C.item-3XjbnG:hover {
+	border-bottom-color: var(--dracula-accent);
+}
+
+/* github plugin compat */
+.has-vpc .content-2hZxGK {
+	background-color: var(--dracula-primary) !important;
+}
+
+/* annoying rebranding reaction border */
+.reaction-2A2y9y.reactionMe-3I9gFK {
+	border-color: var(--dracula-accent);
+}
+.reaction-2A2y9y:hover {
+	border-color: var(--dracula-accent);
+}
+
+/* mentions - discord's rebranding sucks huge fucking cock */
+#app-mount .wrapper-1ZcZW- {
+	background-color: var(--dracula-accent-alpha);
+}
+
+/* posting tokens in chat warning */
+#app-mount .contentWarningPopout-WKdbDG {
+	background-color: var(--dracula-secondary);
+}
+
+/* creating new role */
+.checkbox-f1HnKB {
+	border-color: var(--dracula-accent) !important;
+	background-color: var(--dracula-accent) !important;
+}
+
+/* selection color */
+::selection {
+	background-color: var(--dracula-accent-dark);
+}
+
+/* recolor subscriptions tab */
+.premiumTabItem-1QTfBr[aria-selected="true"] {
+	background-color: var(--dracula-accent) !important;
+	&:hover {
+		background-color: var(--dracula-accent-light) !important;
+	}
+}
+
+.side-2ur1Qk
+	> .item-3XjbnG[data-item-id="DiscordNitro"]:not(.role-3pGE29)::before {
+	--settings-icon-color: #ffffff;
+}
+
+.PronounDB-style-container .PronounDB-style-header {
+	color: var(--dracula-accent);
+}
+
+.theme-dark .newPopoutActivityStyles button,
+.theme-dark .newProfileActivityStyles button,
+.theme-light .newPopoutActivityStyles button,
+.theme-light .newProfileActivityStyles button {
+	color: #ffffff;
+}
+
+.container-2o3qEW {
+	background-color: var(--dracula-primary);
+}
+
+.button-y6hemj[disabled] > .innerButton-1aF_E_ > .buttonChild-33lB5F,
+.buttonChild-33lB5F {
+	color: var(--dracula-accent);
+}

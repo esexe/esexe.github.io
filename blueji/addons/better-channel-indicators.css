@@ -1,0 +1,105 @@
+/* Better Channel Indicators by LuckFire*/
+
+:root {
+	/* better channel indicators variables */
+	--unread-badge: rgba(255, 255, 255, 0.6);
+	--unread-bg: rgba(255, 255, 255, 0);
+	--selected-badge: var(--dracula-accent);
+	--selected-bg: var(--dracula-accent-alpha);
+	--selected-bg-hover: var(--dracula-accent-alpha-alt);
+	--hovered-bg: rgba(79, 84, 92, 0.2);
+	--bg-rounding: 2px;
+	--indicators-border-info: 2px solid;
+}
+
+.content-1gYQeQ,
+.channel-1Shao0 > .layout-1qmrhw {
+  background: none !important;
+}
+
+.modeSelected-3DmyhH::before,
+.modeUnread-3Cxepe::before {
+  content: "";
+  position: absolute;
+  height: 34px;
+  top: 0;
+}
+.channel-1Shao0.selected-1-Z6gm::before {
+  content: "";
+  position: absolute;
+  height: 44px;
+  top: 0;
+}
+
+.modeSelected-3DmyhH,
+.channel-1Shao0.selected-1-Z6gm {
+  background: var(--selected-bg);
+  border-radius: var(--bg-rounding);
+}
+.modeSelected-3DmyhH:hover,
+.channel-1Shao0.selected-1-Z6gm:hover {
+  background: var(--selected-bg-hover);
+}
+.modeSelected-3DmyhH::before,
+.channel-1Shao0.selected-1-Z6gm::before {
+  border-left: var(--indicators-border-info) var(--selected-badge);
+}
+
+.content-1gYQeQ,
+.channel-1Shao0 > .layout-1qmrhw {
+  background: none !important;
+}
+
+.modeSelected-3DmyhH::before,
+.modeUnread-3Cxepe::before {
+  content: "";
+  position: absolute;
+  height: 34px;
+  top: 0;
+}
+.channel-1Shao0.selected-1-Z6gm::before {
+  content: "";
+  position: absolute;
+  height: 44px;
+  top: 0;
+}
+
+.modeSelected-3DmyhH,
+.channel-1Shao0.selected-1-Z6gm {
+  background: var(--selected-bg);
+  border-radius: var(--bg-rounding);
+}
+.modeSelected-3DmyhH:hover,
+.channel-1Shao0.selected-1-Z6gm:hover {
+  background: var(--selected-bg-hover);
+}
+.modeSelected-3DmyhH::before,
+.channel-1Shao0.selected-1-Z6gm::before {
+  border-left: var(--indicators-border-info) var(--selected-badge);
+}
+
+.modeUnread-3Cxepe {
+  background: var(--unread-bg);
+  border-radius: var(--bg-rounding);
+}
+.modeUnread-3Cxepe::before {
+  border-left: var(--indicators-border-info) var(--unread-badge);
+}
+.unread-36eUEm {
+  display: none;
+}
+
+.modeUnread-3Cxepe:hover,
+.wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH),
+.channel-1Shao0.container-1oeRFJ:hover:not(.selected-1-Z6gm) {
+  background: var(--hovered-bg);
+  border-radius: var(--bg-rounding);
+}
+
+.channel-1Shao0.container-1oeRFJ {
+  margin-left: 0;
+  max-width: 233px;
+}
+#private-channels > div > .channel-1Shao0 > div > .avatar-6qzftW {
+  margin-left: 4px;
+}
