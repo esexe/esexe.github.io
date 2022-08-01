@@ -15,8 +15,8 @@
 
 - ### [Powercord](https://github.com/powercord-org/powercord)
 
-  - clone the repo `cd powercord/src/Powercord/themes && git clone https://github.com/x6r/dracula`
-  - enable dracula by typing `[p]theme enable dracula` ([Theme Toggler](https://github.com/redstonekasi/theme-toggler))
+  - clone the repo `cd powercord/src/Powercord/themes && git clone https://github.com/apomediacenter/apomediacenter.github.io/edit/main/blueji/`
+  - enable dracula by typing `[p]theme enable blueji` ([Theme Toggler](https://github.com/redstonekasi/theme-toggler))
 
 - ### [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
