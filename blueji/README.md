@@ -25,3 +25,6 @@
   - place it in the BetterDiscord themes folder
   - enable dracula in the themes tab
 
+**please inform me if you have some bugs to fix or else**
+
+** apo#0001 **
