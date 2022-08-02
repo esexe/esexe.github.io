@@ -11,7 +11,7 @@
 
 ---
 
-## <p style="color:white">Installation</p>
+<span style="color:white">Installation</span>.
 
 - ### [Powercord](https://github.com/powercord-org/powercord)
 
