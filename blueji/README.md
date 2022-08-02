@@ -5,7 +5,7 @@
   <a href="#credits">credits</a>
 </p>
 
-![](https://i.imgur.com/Wvanzlj.png)
+![](https://i.imgur.com/Quh7NCg.png)
 
 <p align="center">a dark mode discord theme based on the dracula color palette.</p>
 
