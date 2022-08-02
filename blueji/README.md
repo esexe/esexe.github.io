@@ -21,7 +21,7 @@
 - ### [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
   - download the theme file
- <a href="https://github.com/apomediacenter/apomediacenter.github.io/blob/main/blueji/BetterDiscord/blueji.theme.css" download>
+ <a href="https://cdn.discordapp.com/attachments/719765421405765632/1003815895623270480/blueji.theme.css" download>
   <img src="/images/myw3schoolsimage.jpg" alt="W3Schools">
 </a>
   - place it in the BetterDiscord themes folder
