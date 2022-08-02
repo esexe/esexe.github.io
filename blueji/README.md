@@ -1,3 +1,5 @@
+import config from "./blueji/embed.html";
+
 <h1 align="center">APO blueji</h1>
 <p align="center">
   <a href="#dracula">overview</a> |
