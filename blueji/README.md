@@ -24,8 +24,8 @@
   - <p style="color:white">place it in the BetterDiscord themes folder</p>   
   - <p style="color:white">enable dracula in the themes tab</p>   
 
-<p style="color:white">please inform me if you have some bugs to fix or else</p>
+<p style="color:blue">please inform me if you have some bugs to fix or else</p>
 
-<p style="color:white">apo#0001</p> 
+<p style="color:blue">apo#0001</p> 
 
  <body style="background-color:#14151c;">
