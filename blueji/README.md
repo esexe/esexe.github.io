@@ -16,13 +16,13 @@
 - ### [Powercord](https://github.com/powercord-org/powercord)
 
   - <p style="color:white">clone the repo cd powercord/src/Powercord/themes && git clone https://github.com/apomediacenter/apomediacenter.github.io/edit/main/blueji/ </p>
-  - enable blueji by typing `[p]theme enable blueji` ([Theme Toggler](https://github.com/redstonekasi/theme-toggler))
+  - <p style="color:white">enable blueji by typing `[p]theme enable blueji` ([Theme Toggler](https://github.com/redstonekasi/theme-toggler))</p>
 
 - ### [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
- - download the theme file  <a href="https://cdn.discordapp.com/attachments/719765421405765632/1003832200137015326/blueji.theme.css">    <button>Download</button> </a> 
-  - place it in the BetterDiscord themes folder
-  - enable dracula in the themes tab
+ - <p style="color:white">download the theme file  <a href="https://cdn.discordapp.com/attachments/719765421405765632/1003832200137015326/blueji.theme.css"></p>    <button>Download</button> </a> 
+  - <p style="color:white">place it in the BetterDiscord themes folder</p>   
+  - <p style="color:white">enable dracula in the themes tab</p>   
 
 <p style="color:white">please inform me if you have some bugs to fix or else</p>
 
