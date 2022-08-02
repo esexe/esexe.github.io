@@ -1,4 +1,4 @@
-<p style ="color: white;"><h1 style="text-align: center">Blueji</h1>
+<h1 style="text-align: center">Blueji</h1>
 <p align="center">
   <a href="#dracula">overview</a> |
   <a href="#installation">installation</a> |
