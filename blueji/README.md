@@ -1,4 +1,3 @@
-< p style ="color: red;" > < h1 style ="text-align: center;"
 <p style ="color: white;">; <h1 style="text-align: center">Blueji</h1>
 <p align="center">
   <a href="#dracula">overview</a> |
