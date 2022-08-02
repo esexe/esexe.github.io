@@ -1,4 +1,3 @@
-import config from "./blueji/blueji.html";
 
 <h1 align="center">APO blueji</h1>
 <p align="center">
