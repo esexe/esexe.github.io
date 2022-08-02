@@ -2,7 +2,6 @@
 <p align="center">
   <a href="#blueji">overview</a> |
   <a href="#installation">installation</a> |
-  <a href="#credits">credits</a> |
 </p>
 
 ![](https://i.imgur.com/Quh7NCg.png)
