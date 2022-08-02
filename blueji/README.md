@@ -20,7 +20,7 @@
 
 - ### [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
-  - download the theme file  <a href="https://cdn.discordapp.com/attachments/719765421405765632/1003815895623270480/blueji.theme.css">    <button>Download</button> </a> 
+  - download the theme file  <a href="https://cdn.discordapp.com/attachments/719765421405765632/1003820654094729318/blueji.theme.css">    <button>Download</button> </a> 
   - place it in the BetterDiscord themes folder
   - enable dracula in the themes tab
 
