@@ -25,7 +25,7 @@
   - place it in the BetterDiscord themes folder
   - enable dracula in the themes tab
 
-<p style="color:white">**please inform me if you have some bugs to fix or else**</p>
+<p style="color:white">please inform me if you have some bugs to fix or else</p>
 
 <p style="color:white">apo#0001</p> 
 
