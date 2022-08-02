@@ -4,7 +4,11 @@
 <style>
 .center {
   text-align: center;
-  color: white;
+  color: red;
+}
+</style>
+</head>
+<body>
 
 <h1 align="center">Blueji</h1>
 <p align="center">
