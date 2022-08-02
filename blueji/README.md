@@ -1,3 +1,10 @@
+<html>
+<head>
+<style>
+.center {
+  text-align: center;
+  color: white;
+
 <h1 align="center">Blueji</h1>
 <p align="center">
   <a href="#dracula">overview</a> |
