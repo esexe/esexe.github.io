@@ -1,6 +1,6 @@
 <h1 style="color:white" align="center">Blueji</h1>
 <p align="center">
-  <a href="#dracula">overview</a> |
+  <a href="#blueji">overview</a> |
   <a href="#installation">installation</a> |
   <a href="#credits">credits</a> |
 </p>
@@ -15,7 +15,8 @@
 
 - ### [Powercord](https://github.com/powercord-org/powercord)
 
-  - <p style="color:white">clone the repo cd powercord/src/Powercord/themes && git clone</p> <p style="color:white">https://github.com/apomediacenter/apomediacenter.github.io/edit/main/blueji/</p> 
+  - <p style="color:white">clone the repo cd powercord/src/Powercord/themes && git clone</p>
+<a href=https://github.com/apomediacenter/apomediacenter.github.io/edit/main/blueji</a>
   - <p style="color:white">enable blueji by typing --- [p]theme enable blueji</p> <a href="https://github.com/redstonekasi/theme-toggler">  <button>Theme Toggler</button> </a> 
 
 - ### [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
