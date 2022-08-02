@@ -16,7 +16,7 @@
 - ### [Powercord](https://github.com/powercord-org/powercord)
 
   - <p style="color:white">clone the repo cd powercord/src/Powercord/themes && git clone</p>
-<a href=https://github.com/apomediacenter/apomediacenter.github.io/edit/main/blueji</a>
+<a href="https://github.com/apomediacenter/apomediacenter.github.io/edit/main/blueji">https://github.com/apomediacenter/apomediacenter.github.io/edit/main/blueji</a>
   - <p style="color:white">enable blueji by typing --- [p]theme enable blueji</p> <a href="https://github.com/redstonekasi/theme-toggler">  <button>Theme Toggler</button> </a> 
 
 - ### [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
