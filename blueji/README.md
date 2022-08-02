@@ -10,7 +10,7 @@
 
 ![](https://i.imgur.com/Quh7NCg.png)
 
-<p align="center">darkmode discord theme based on dracula.</p>
+<p align="center">darkmode discord theme ice blue.</p>
 
 ---
 
