@@ -21,9 +21,9 @@
 - ### [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
   - download the theme file
- <a href="https://cdn.discordapp.com/attachments/719765421405765632/1003815895623270480/blueji.theme.css" download>
-  <alt="W3Schools">
-</a>
+  <a href="https://cdn.discordapp.com/attachments/719765421405765632/1003815895623270480/blueji.theme.css">
+    <button>Download</button>
+  </a> 
   - place it in the BetterDiscord themes folder
   - enable dracula in the themes tab
 
