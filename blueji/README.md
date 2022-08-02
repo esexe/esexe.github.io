@@ -1,4 +1,4 @@
-    <title>Website Name</title>
+    <title>Blueji's Website</title>
     <meta content="Embed Title" property="og:title" />
     <meta content="Site Description" property="og:description" />
     <meta content="https://embed.com/this-is-the-site-url" property="og:url" />
