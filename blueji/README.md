@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.center {
-  text-align: center;
-  color: red;
-}
-</style>
-</head>
-<body>
-
-<h1 class="center">Red and center-aligned heading</h1>
-<p class="center">Red and center-aligned paragraph.</p> 
-
-</body>
-</html>
 
 <h1 align="center">Blueji</h1>
 <p align="center">
@@ -22,9 +5,6 @@
   <a href="#installation">installation</a> |
   <a href="#credits">credits</a> |
 </p>
-
-</body>
-</html>
 
 ![](https://i.imgur.com/Quh7NCg.png)
 
