@@ -1,7 +1,7 @@
 <h1 style="color:white" align="center">Blueji</h1>
 <p align="center">
   <a href="#blueji">overview</a> |
-  <a href="#installation">installation</a> |
+  <a href="#installation">installation</a>
 </p>
 
 ![](https://i.imgur.com/Quh7NCg.png)
