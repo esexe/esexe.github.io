@@ -10,7 +10,7 @@
 
 ![](https://i.imgur.com/Quh7NCg.png)
 
-<p align="center">a dark mode discord theme based on the dracula color palette.</p>
+<p align="center">darkmode discord theme based on dracula.</p>
 
 ---
 
