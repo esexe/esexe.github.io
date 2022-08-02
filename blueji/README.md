@@ -11,9 +11,7 @@
 
 ---
 
-<span style="color:white;font-weight:700;font-size:50px">
-    Installation
-</span>
+<h1 style="color:white;font-size:40px;">Installation</h1>    
 
 - ### [Powercord](https://github.com/powercord-org/powercord)
 
