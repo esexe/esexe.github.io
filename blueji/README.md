@@ -17,6 +17,9 @@
   <a href="#credits">credits</a> |
 </p>
 
+</body>
+</html>
+
 ![](https://i.imgur.com/Quh7NCg.png)
 
 <p align="center" style="color:white">darkmode discord theme ice blue.</p>
