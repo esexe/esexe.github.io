@@ -4,7 +4,6 @@
   <a href="#dracula">overview</a> |
   <a href="#installation">installation</a> |
   <a href="#credits">credits</a> |
-<a href="https://apomediacenter.github.io/blueji/" target="_blank">website</a>.
 
 
 
